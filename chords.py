@@ -155,6 +155,7 @@ def convertBack(progression, key, tonal):
 		chosen_progression.append(roman_map[progression[x]])
 	return chosen_progression
 
+
 tr = generateTree(["F#m","Em"], "D","major",4)
 chosen = chordGenerator(tr)
 print(chosen)
